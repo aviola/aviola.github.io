@@ -1,0 +1,8 @@
+/* Keep the profile-mode avatar square instead of being stretched
+   to fit the configured width/height (source photos aren't square). */
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center top;
+}
