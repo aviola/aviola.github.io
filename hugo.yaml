@@ -1,0 +1,110 @@
+baseURL: "https://aviola.github.io/"
+languageCode: "en-us"
+title: "Alessio Viola"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # required for search
+
+taxonomies:
+  tag: tags
+
+params:
+  env: production
+  title: "Alessio Viola"
+  description: "Alessio Viola's personal blog"
+  keywords: [Blog, Software Engineering]
+  defaultTheme: auto # light / dark / auto
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hideFooter: false
+  comments: false
+
+  # Home page ("profile mode") — like https://fedepaol.github.io/
+  profileMode:
+    enabled: true
+    title: "Alessio Viola"
+    subtitle: "Software Engineer" # TODO: edit your one-line bio here
+    imageUrl: "images/avatar.jpg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: "Alessio Viola"
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/aviola" # TODO: confirm/replace
+    - name: linkedin
+      url: "https://www.linkedin.com/in/REPLACE_ME" # TODO: replace
+    - name: rss
+      url: "index.xml"
+
+  # Home page search (client-side, no build step needed)
+  fuseOpacity: 80
+  assets:
+    disableHLJS: true
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/aviola/aviola.github.io/tree/main/content"
+    Text: "Suggest changes"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
