@@ -65,7 +65,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/aviola" # TODO: confirm/replace
+      url: "https://github.com/aviola"
     - name: linkedin
       url: "https://www.linkedin.com/in/alessioviola-dev"
     - name: email
