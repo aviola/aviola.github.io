@@ -54,8 +54,8 @@ params:
     title: "Alessio Viola"
     subtitle: "Staff Software Engineer, EnterpriseDB"
     imageUrl: "images/avatar.jpg"
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 360
+    imageHeight: 360
     imageTitle: "Alessio Viola"
     buttons:
       - name: Posts
