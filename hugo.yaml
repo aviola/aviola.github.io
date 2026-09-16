@@ -52,10 +52,10 @@ params:
   profileMode:
     enabled: true
     title: "Alessio Viola"
-    subtitle: "Software Engineer" # TODO: edit your one-line bio here
+    subtitle: "Staff Software Engineer, EnterpriseDB"
     imageUrl: "images/avatar.jpg"
-    imageWidth: 150
-    imageHeight: 150
+    imageWidth: 360
+    imageHeight: 360
     imageTitle: "Alessio Viola"
     buttons:
       - name: Posts
@@ -65,9 +65,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/aviola" # TODO: confirm/replace
+      url: "https://github.com/aviola"
     - name: linkedin
-      url: "https://www.linkedin.com/in/REPLACE_ME" # TODO: replace
+      url: "https://www.linkedin.com/in/alessioviola-dev"
+    - name: email
+      url: "mailto:alessioviola.dev@gmail.com"
     - name: rss
       url: "index.xml"
 
