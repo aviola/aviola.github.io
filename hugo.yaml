@@ -52,7 +52,7 @@ params:
   profileMode:
     enabled: true
     title: "Alessio Viola"
-    subtitle: "Software Engineer" # TODO: edit your one-line bio here
+    subtitle: "Staff Software Engineer, EnterpriseDB"
     imageUrl: "images/avatar.jpg"
     imageWidth: 150
     imageHeight: 150
